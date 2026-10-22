@@ -1,0 +1,67 @@
+[
+  {
+    "title": "B-roll",
+    "src": "assets/videos/projeto-01.mp4",
+    "poster": "assets/videos/projeto-01.jpg"
+  },
+  {
+    "title": "Duale",
+    "src": "assets/videos/projeto-02.mp4",
+    "poster": "assets/videos/projeto-02.jpg"
+  },
+  {
+    "title": "Engenharia do Lucro",
+    "src": "assets/videos/projeto-03.mp4",
+    "poster": "assets/videos/projeto-03.jpg"
+  },
+  {
+    "title": "4 ambientes",
+    "src": "assets/videos/projeto-04.mp4",
+    "poster": "assets/videos/projeto-04.jpg"
+  },
+  {
+    "title": "Gravação",
+    "src": "assets/videos/projeto-05.mp4",
+    "poster": "assets/videos/projeto-05.jpg"
+  },
+  {
+    "title": "Marketeiro não tem sossego",
+    "src": "assets/videos/projeto-06.mp4",
+    "poster": "assets/videos/projeto-06.jpg"
+  },
+  {
+    "title": "Entrevista de Emprego",
+    "src": "assets/videos/projeto-07.mp4",
+    "poster": "assets/videos/projeto-07.jpg"
+  },
+  {
+    "title": "Ninguém está seguro em 2026",
+    "src": "assets/videos/projeto-08.mp4",
+    "poster": "assets/videos/projeto-08.jpg"
+  },
+  {
+    "title": "Repetir",
+    "src": "assets/videos/projeto-09.mp4",
+    "poster": "assets/videos/projeto-09.jpg"
+  },
+  {
+    "title": "Prótese protocolo",
+    "src": "assets/videos/projeto-10.mp4",
+    "poster": "assets/videos/projeto-10.jpg"
+  },
+  {
+    "title": "Estrias Brancas",
+    "src": "assets/videos/projeto-11.mp4",
+    "poster": "assets/videos/projeto-11.jpg"
+  },
+  {
+    "title": "Dicas em movimento",
+    "src": "assets/videos/projeto-12.mp4",
+    "poster": "assets/videos/projeto-12.jpg"
+  },
+  {
+    "title": "Bruno",
+    "src": "assets/videos/projeto-13.mp4",
+    "poster": "assets/videos/projeto-13.jpg"
+  }
+]
