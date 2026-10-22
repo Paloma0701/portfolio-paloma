@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#e2e2e2">
+<title>Paloma Vasconcelos — Editora de Vídeo Sênior</title>
+<meta name="description" content="Imagem, som e ritmo para contar histórias. Conheça os projetos de Paloma Vasconcelos, editora de vídeo e proprietária da Triade Kriyo.">
+<meta property="og:title" content="Paloma Vasconcelos — Portfólio"><meta property="og:description" content="Edição de vídeo, design e audiovisual. Conheça meu trabalho."><meta property="og:type" content="website">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23f00'/%3E%3Ctext x='5' y='24' font-family='Arial' font-weight='900' font-size='23' fill='%23e2e2e2'%3EP%3C/text%3E%3C/svg%3E">
+<link rel="preload" href="assets/hero.webp" as="image"><link rel="stylesheet" href="style.css"><script src="app.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#sobre">Ir para o conteúdo</a>
+<header class="hero" aria-label="Apresentação">
+<img class="hero-art" src="assets/hero.webp" width="1366" height="768" alt="" fetchpriority="high">
+<h1 class="sr-only">Paloma Vasconcelos — Editora de Vídeo Sênior</h1>
+<div class="dock" role="group" aria-label="Minhas ferramentas de criação">
+<button class="dock-item" type="button" aria-label="Adobe Premiere Pro"><img src="assets/premiere.webp" width="84" height="85" alt=""><span class="dock-label">Premiere Pro</span></button>
+<button class="dock-item" type="button" aria-label="CapCut"><img src="assets/capcut.webp" width="84" height="85" alt=""><span class="dock-label">CapCut</span></button>
+<button class="dock-item" type="button" aria-label="Adobe After Effects"><img src="assets/after-effects.webp" width="84" height="85" alt=""><span class="dock-label">After Effects</span></button>
+<button class="dock-item" type="button" aria-label="Adobe Photoshop"><img src="assets/photoshop.webp" width="85" height="85" alt=""><span class="dock-label">Photoshop</span></button>
+<button class="dock-item" type="button" aria-label="Claude"><img src="assets/claude.webp" width="85" height="85" alt=""><span class="dock-label">Claude</span></button>
+<button class="dock-item" type="button" aria-label="ChatGPT"><img src="assets/chatgpt.webp" width="85" height="85" alt=""><span class="dock-label">ChatGPT</span></button>
+</div>
+</header>
+<main>
+<section class="about section" id="sobre" aria-labelledby="about-title">
+<div class="about-image"><img src="assets/about.webp" width="335" height="594" alt="Retrato de Paloma em dupla exposição, com luzes em tons de vermelho e laranja" loading="lazy"></div>
+<div class="bio"><h2 id="about-title">Paloma<br>Vasconcelos</h2><p>Tenho 20 anos e conecto imagem, som e ritmo para contar histórias. Sou editora de vídeo e proprietária da <strong>Triade Kriyo</strong>. Do primeiro corte ao acabamento, busco dar personalidade a cada projeto.</p></div>
+<div class="skills" aria-labelledby="skills-title"><h2 id="skills-title">Skills</h2><ul class="skills-list">
+<li><img src="assets/premiere.webp" alt="Premiere Pro" width="34" height="34"><span class="skill-track" role="img" aria-label="Premiere Pro: domínio principal"><span style="--level:100%"></span></span></li>
+<li><img src="assets/capcut.webp" alt="CapCut" width="34" height="34"><span class="skill-track" role="img" aria-label="CapCut: domínio principal"><span style="--level:100%"></span></span></li>
+<li><img src="assets/photoshop.webp" alt="Photoshop" width="34" height="34"><span class="skill-track" role="img" aria-label="Photoshop: conhecimento avançado"><span style="--level:85%"></span></span></li>
+<li><img src="assets/after-effects.webp" alt="After Effects" width="34" height="34"><span class="skill-track" role="img" aria-label="After Effects: conhecimento intermediário"><span style="--level:57%"></span></span></li>
+</ul></div>
+<div class="experience"><h2>Experiência</h2><p>Minha trajetória inclui experiência com a <strong>V4 Company</strong> e a construção da <strong>Triade Kriyo</strong>, minha produtora. Reúno edição de vídeo, design gráfico, captação e motion graphics para transformar ideias em conteúdo audiovisual.</p></div>
+</section>
+<section class="projects section" id="projetos" aria-labelledby="projects-title">
+<h2 id="projects-title">Projetos</h2>
+<div class="carousel" tabindex="0" role="region" aria-roledescription="carrossel" aria-label="Vídeos editados por Paloma. Use as setas do teclado para navegar.">
+<div class="carousel-stage" id="carousel-stage"><p class="loading">Carregando projetos…</p></div>
+<div class="carousel-controls">
+<button type="button" class="round-control" id="previous" aria-label="Projeto anterior"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m14 6-6 6 6 6"/></svg></button>
+<span id="project-counter" class="counter" aria-live="polite" aria-atomic="true"></span>
+<button type="button" class="round-control" id="next" aria-label="Próximo projeto"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m10 6 6 6-6 6"/></svg></button>
+<button type="button" class="round-control auto-control" id="autoplay" aria-label="Pausar rotação automática" aria-pressed="false"><svg class="pause-symbol" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6v12M15 6v12"/></svg><svg class="play-symbol" viewBox="0 0 24 24" aria-hidden="true"><path d="m9 5 10 7-10 7z"/></svg></button>
+</div><p class="carousel-hint">Escolha um projeto e dê o play.</p>
+</div>
+</section>
+<section class="contact section" id="contato" aria-labelledby="contact-title">
+<div class="contact-image"><img src="assets/contact.webp" width="545" height="818" alt="Paloma de óculos escuros, segurando um jornal sob o céu azul" loading="lazy"></div>
+<div class="contact-content">
+<h2 id="contact-title">O próximo projeto<br>pode ser o seu.</h2><p>Tem uma ideia, uma história ou uma marca para colocar em movimento?</p><p>Vamos conversar sobre como dar forma a ela.</p>
+<div class="contact-links">
+<a href="https://wa.me/5562999872849" target="_blank" rel="noopener noreferrer"><strong>WhatsApp</strong><span>62 9 9987-2849</span></a>
+<a href="https://www.instagram.com/palomandress/" target="_blank" rel="noopener noreferrer"><strong>Instagram pessoal</strong><span>@palomandress</span></a>
+<a href="mailto:triadekriyo@gmail.com"><strong>E-mail</strong><span>triadekriyo@gmail.com</span></a>
+<a href="https://www.instagram.com/triadekriyo/" target="_blank" rel="noopener noreferrer"><strong>Triade Kriyo</strong><span>@triadekriyo</span></a>
+</div><footer><strong>PALOMA VASCONCELOS</strong><span>Edição · Design · Audiovisual</span></footer>
+</div>
+</section>
+</main>
+<dialog class="video-dialog" aria-labelledby="video-title"><div class="video-dialog-inner"><header><div><span class="video-eyebrow">EDIÇÃO POR PALOMA VASCONCELOS</span><h2 id="video-title"></h2></div><button class="close-video" type="button" aria-label="Fechar vídeo">×</button></header><video id="project-video" controls playsinline preload="none"></video><p id="video-error" hidden>Não foi possível carregar o vídeo. <a id="video-download">Abrir o arquivo</a></p></div></dialog>
+</body></html>
